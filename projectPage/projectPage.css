@@ -16,7 +16,7 @@
 
  body {
    background-color: black;
-   background-image: url(images/NEWWBackground\ texture-03-03-03.webp);
+   background-image: url(../images/NEWWBackground\ texture-03-03-03.webp);
    background-repeat: repeat;
    height: 100%;
    width: 100%;
@@ -157,7 +157,7 @@
  .first_img {
    width: 35rem;
    height: 100%;
-   background-image: url(newJpgImg/Soft\ Swan\ my\ project\ 1.jpg);
+   background-image: url(../newJpgImg/Soft\ Swan\ my\ project\ 1.jpg);
    background-size: cover;
    border-radius: 7px;
  }
@@ -239,7 +239,7 @@
  .img1 {
    width: 100%;
    height: 16rem;
-   background-image: url(newJpgImg/reunion\ my\ project\ 2.jpg);
+   background-image: url(../newJpgImg/reunion\ my\ project\ 2.jpg);
    background-size: cover;
    border-radius: 7px;
  }
@@ -248,7 +248,7 @@
  .img2 {
    width: 100%;
    height: 16rem;
-   background-image: url(newJpgImg/Fresh\ eats\ my\ project\ 3.jpg);
+   background-image: url(../newJpgImg/Fresh\ eats\ my\ project\ 3.jpg);
    background-size: cover;
    border-radius: 7px;
  }
@@ -259,7 +259,7 @@
  .img3 {
    width: 100%;
    height: 16rem;
-   background-image: url(newJpgImg/South\ Voice\ my\ project\ 4.jpg);
+   background-image: url(../newJpgImg/South\ Voice\ my\ project\ 4.jpg);
    background-size: cover;
    border-radius: 7px;
  }
@@ -268,7 +268,7 @@
  .lastImg {
    height: 100%;
    width: 61rem;
-   background-image: url(newJpgImg/New\ trick\ my\ project\ 5-02.jpg);
+   background-image: url(../newJpgImg/New\ trick\ my\ project\ 5-02.jpg);
    background-size: cover;
    border-radius: 7px;
 
@@ -522,7 +522,7 @@
    }
 
    .first_img {
-     background-image: url(images/Soft\ Swan\ my\ project\ 1\ NEW-03.jpg);
+     background-image: url(../images/Soft\ Swan\ my\ project\ 1\ NEW-03.jpg);
    }
 
    .bottom_container {

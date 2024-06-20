@@ -225,27 +225,27 @@ video {
 }
 
 #reunion_img_1 {
-  background-image: url(images/reunion\ photo\ 1-03.png);
+  background-image: url(../images/reunion\ photo\ 1-03.png);
 }
 
 #reunion_img_2 {
-  background-image: url(images/reunion\ photo\ 2-03.png);
+  background-image: url(../images/reunion\ photo\ 2-03.png);
 }
 
 #fresheats_img1 {
-  background-image: url(images/fresh\ eats\ photo\ 1-03.png);
+  background-image: url(../images/fresh\ eats\ photo\ 1-03.png);
 }
 
 #fresheats_img2 {
-  background-image: url(images/fresh\ eats\ photo\ 2-03.png);
+  background-image: url(../images/fresh\ eats\ photo\ 2-03.png);
 }
 
 #southvoice_img1 {
-  background-image: url(images/south\ voice\ photo\ 1-03.png);
+  background-image: url(../images/south\ voice\ photo\ 1-03.png);
 }
 
 #southvoice_img2 {
-  background-image: url(images/south\ voice\ photo\ 2-03.png);
+  background-image: url(../images/south\ voice\ photo\ 2-03.png);
 }
 
 .project_details {
@@ -343,17 +343,17 @@ video {
 }
 
 .oursevices_box1 {
-  background-image: url(images/service\ Logo-03.png);
+  background-image: url(../images/service\ Logo-03.png);
   background-size: cover;
 }
 
 .oursevices_box2 {
-  background-image: url(images/service\ Brand-03.png);
+  background-image: url(../images/service\ Brand-03.png);
   background-size: cover;
 }
 
 .oursevices_box3 {
-  background-image: url(images/service\ graphic-03.png);
+  background-image: url(../images/service\ graphic-03.png);
   background-size: cover;
 }
 

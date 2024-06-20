@@ -21,7 +21,7 @@ a {
 
 body {
   background-color: black;
-  background-image: url(images/NEWWBackground\ texture-03-03-03.webp);
+  background-image: url(../images/NEWWBackground\ texture-03-03-03.webp);
   background-repeat: repeat;
   height: 100%;
   width: 100%;
@@ -87,17 +87,16 @@ nav .menubar i {
   display: none;
 }
 
-
-
 .project {
-  background-image: url(newJpgImg/Portfolio\ Mockups\ 4\ -\ Soft\ Swan-01.jpg);
+  background-image: url(../newJpgImg/Portfolio\ Mockups\ 2\ -\ Fresh\ Eats-01.jpg);
   background-size: contain;
-
-  width: 850px;
-  height: 6100px;
+  width: 900px;
+  height: 5500px;
   margin: 0px 320px;
 
+
 }
+
 
 
 .back {
@@ -177,7 +176,7 @@ nav .menubar i {
 
 @media (max-width:1024px) {
   .project {
-    margin: 0px 100px;
+    margin: 0px 70px;
   }
 
   .footer_container {
@@ -206,9 +205,9 @@ nav .menubar i {
 
 @media (max-width:768px) {
   .project {
-    width: 626px;
+    width: 692px;
     height: 4690px;
-    margin: 0px 70px;
+    margin: 0px 40px;
   }
 
   .footer_container {
@@ -292,11 +291,12 @@ nav .menubar i {
   }
 
   .project {
-    width: 33cap;
-    height: 248cap;
-    margin: 0px;
+    width: 32cap;
+    height: 200cap;
+    margin: 0;
     background-size: cover;
     margin-top: 20px;
+
   }
 
   .footer_top_box {

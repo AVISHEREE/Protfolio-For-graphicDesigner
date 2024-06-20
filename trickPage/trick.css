@@ -21,7 +21,7 @@ a {
 
 body {
   background-color: black;
-  background-image: url(images/NEWWBackground\ texture-03-03-03.webp);
+  background-image: url(../images/NEWWBackground\ texture-03-03-03.webp);
   background-repeat: repeat;
   height: 100%;
   width: 100%;
@@ -88,14 +88,12 @@ nav .menubar i {
 }
 
 
-
 .project {
-  background-image: url(newJpgImg/Portfolio\ Mockups\ 3\ -\ South\ Voice-01.jpg);
+  background-image: url(../newJpgImg/Portfolio\ Mockups\ 5\ -\ Trick\ Food-01.jpg);
   background-size: contain;
-  width: 860px;
-  height: 5361px;
-  margin: 0px 320px;
-
+  width: 767px;
+  height: 5755px;
+  margin: 0px 390px;
 }
 
 .back {
@@ -125,8 +123,7 @@ nav .menubar i {
   display: flex;
   justify-content: space-around;
   align-items: center;
-
-  padding: 120px 0px;
+  padding: 150px 0px;
 
 }
 
@@ -175,7 +172,7 @@ nav .menubar i {
 
 @media (max-width:1024px) {
   .project {
-    margin: 0px 70px;
+    margin: 0px 130px;
   }
 
   .footer_container {
@@ -184,6 +181,7 @@ nav .menubar i {
   }
 
   .footer_top_box {
+    /* width: 360px; */
     margin: 0px 0px;
     margin-bottom: 40px;
     padding: 120px 0px;
@@ -204,9 +202,9 @@ nav .menubar i {
 
 @media (max-width:768px) {
   .project {
-    width: 692px;
-    height: 4690px;
-    margin: 0px 40px;
+    width: 624px;
+    height: 4686px;
+    margin: 0px 80px
   }
 
   .footer_container {
@@ -215,6 +213,7 @@ nav .menubar i {
   }
 
   .footer_top_box {
+    /* width: 360px; */
     margin: 0px 0px;
     margin-bottom: 40px;
     padding: 15px 0px;
@@ -290,12 +289,11 @@ nav .menubar i {
   }
 
   .project {
-    width: 32cap;
-    height: 200cap;
+    width: 30cap;
+    height: 225cap;
     margin: 0;
     background-size: cover;
     margin-top: 20px;
-
   }
 
   .footer_top_box {
