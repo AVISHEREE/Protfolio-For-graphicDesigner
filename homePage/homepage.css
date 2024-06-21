@@ -95,6 +95,43 @@ nav .menubar i {
 
 }
 
+#toggle{
+  display: none;
+}
+
+.projectsClick{
+  cursor: pointer;
+}
+.projectsMenu{
+  /* border: 2px solid green; */
+  color: #fff;
+  width: 15rem;
+  height: 10rem;
+  float: right;
+  margin-right: 21.3rem ;
+  margin-top: 0px;
+  display: grid;
+  grid-auto-flow: row;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.2rem;
+  display: none;
+}
+.projectsMenuOption{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.projectsMenuOption:hover{
+  border: 2px solid #fff;
+  border-radius: 7px;
+}
+#toggle:checked ~ .projectsMenu {  
+  display: grid;
+  
+}
+
+
 video {
   border-radius: 7px;
 }
