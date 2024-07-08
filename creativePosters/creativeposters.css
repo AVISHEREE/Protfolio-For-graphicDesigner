@@ -88,5 +88,29 @@ a {
 
 /* body here */
 
+.postcontainer{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Three columns */
+    grid-template-rows: repeat(3, auto); /* Three rows */
+    /* gap: 3rem;  */
+    margin: 5rem 2rem 2rem 5rem;
+    grid-row-gap: 5rem; 
+    grid-column-gap: 0rem;
+}
 
+.postImage{
+    /* border: 2px solid yellow; */
+    width: 25rem;
+    height: 25rem;
+    object-fit: cover;
+}
  
+.postImage>img{
+    width: 25rem;
+    height: 25rem;
+    border-radius: 7px;
+    transition: transform 0.3s ease;
+}
+.postImage>img:hover{
+    transform: scale(1.1); 
+}
