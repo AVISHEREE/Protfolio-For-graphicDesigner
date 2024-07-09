@@ -188,6 +188,34 @@ nav .menubar i {
     color: #ffff;
   }
 
+  .projectsMenu{
+    display: grid; /* Initially hide the menu */
+    opacity: 0;
+    position: relative;
+    margin: auto;
+    /* margin-top: 12rem; */
+    margin-left: -20rem;
+    /* width: 0px; */
+  }
+
+  .projectsMenuOption{
+    padding-left: 3rem;
+  }
+
+  .projectsMenuOption:hover{
+    border: 0px;
+    border-radius: 0px;
+  }
+
+  #toggle:checked ~ .projectsMenu {  
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    opacity: 1;
+    position: relative;
+    margin-left: auto;
+  }
+
   .footerDownContainer {
     margin: 0px 50px;
   }

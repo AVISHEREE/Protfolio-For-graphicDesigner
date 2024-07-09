@@ -93,7 +93,9 @@ a {
     grid-template-columns: repeat(3, 1fr); /* Three columns */
     grid-template-rows: repeat(3, auto); /* Three rows */
     /* gap: 3rem;  */
-    margin: 5rem 2rem 2rem 5rem;
+    /* margin: 5rem 2rem 2rem 5rem; */
+    justify-items: center;
+    margin-top: 5rem;
     grid-row-gap: 5rem; 
     grid-column-gap: 0rem;
 }
@@ -113,4 +115,97 @@ a {
 }
 .postImage>img:hover{
     transform: scale(1.1); 
+}
+
+     /* for mobile */
+@media (max-width: 475px){
+
+  nav .menubar i {
+    display: block;
+  }
+
+  .logo img {
+    height: 60px;
+  }
+
+  nav ul {
+    position: absolute;
+    top: 80px;
+    left: -110%;
+    height: 7rem;
+    background-color: #000;
+    width: 100%;
+    display: block;
+    text-align: center;
+    justify-content: center;
+    transition: all 0.5s ease;
+    padding-right: 50px;
+    padding: 0px 50px;
+  }
+
+  #click:checked~ul {
+    left: 0;
+    margin: 5px 0px;
+  }
+
+
+  nav ul li {
+    margin: 10px;
+  }
+
+  nav ul li a {
+    font-size: 20px;
+    display: block;
+    font-weight: 600;
+  }
+
+  nav ul li a:hover {
+    color: #ffff;
+  }
+
+  .postcontainer{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr); /* one columns */
+    grid-template-rows: repeat(1, auto); /* one rows */
+    /* gap: 3rem;  */
+    margin: 5rem 0rem 2rem 0rem;
+    grid-row-gap: 5rem; 
+    grid-column-gap: 0rem;
+    /* padding: 2rem; */
+    /* animation: wipe-enter 5s ease; */
+    justify-items: center;
+}
+
+.postImage{
+  /* border: 2px solid yellow; */
+  width: 20rem;
+  height: 20rem;
+  object-fit: cover;
+  
+  
+}
+
+.postImage>img{
+  width: 20rem;
+  height: 20rem;
+  border-radius: 7px;
+ 
+}
+
+@keyframes wipe-enter {
+	0% {
+		transform: scale(0); 
+	}
+	50% {
+		transform: scale(1); 
+	}
+  
+}
+
+
+
+.postImage>img:hover{
+  transform: scale(1); 
+}
+
 }

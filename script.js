@@ -1,5 +1,7 @@
 
 const video = document.getElementById('myVideo');
+const toggle = document.getElementById('toggle');
+const click = document.getElementById('click');
 const mutedIndicator = document.getElementById('mutedIndicator');
 
 // Function to mute the video
@@ -8,6 +10,9 @@ function muteVideo() {
   mutedIndicator.style.display = 'block';
 }
 
+function hello(){
+  toggle.checked = false;
+}
 // Function to unmute the video
 function unmuteVideo() {
   video.muted = false;
