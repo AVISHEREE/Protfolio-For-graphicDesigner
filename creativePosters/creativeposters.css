@@ -103,13 +103,13 @@ a {
 .postImage{
     /* border: 2px solid yellow; */
     width: 25rem;
-    height: 25rem;
+    height: 27rem;
     object-fit: cover;
 }
  
 .postImage>img{
     width: 25rem;
-    height: 25rem;
+    height: 27rem;
     border-radius: 7px;
     transition: transform 0.3s ease;
 }
@@ -179,7 +179,7 @@ a {
 .postImage{
   /* border: 2px solid yellow; */
   width: 20rem;
-  height: 20rem;
+  height: 25rem;
   object-fit: cover;
   
   
@@ -187,7 +187,7 @@ a {
 
 .postImage>img{
   width: 20rem;
-  height: 20rem;
+  height: 25.3rem;
   border-radius: 7px;
  
 }
