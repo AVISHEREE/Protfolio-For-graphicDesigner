@@ -12,25 +12,25 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 
-iframe{
+iframe {
   width: 100%;
   height: 100%;
 }
 
 nav {
-  height: 80px;
+  height: 100px;
   background-color: #000;
   display: flex;
   align-items: center;
   justify-content: space-between;
   width: 100%;
-  /* padding: 0px 22px; */
+  padding: 0px 20px;
 }
 
 nav .logo {
- display: flex;
- justify-items: center;
- margin-left: 14px;
+  margin-top: 10px;
+  margin-left: 0px;
+
 }
 
 .logo img {
@@ -38,14 +38,13 @@ nav .logo {
 }
 
 .icon {
-  display: flex;
-  justify-items: center;
-  margin-right: 14px;
+  margin-top: 15px;
 }
 
 nav ul {
   display: flex;
   list-style: none;
+  padding-right: 30px;
 }
 
 nav ul li {
@@ -59,6 +58,7 @@ nav ul li a {
   padding: 10px;
   transition: all 0.3s ease;
   font-size: 25px;
+  font-weight: lighter;
   text-transform: uppercase;
 }
 
@@ -76,67 +76,6 @@ nav .menubar i {
 
 #click {
   display: none;
-}
-
-.nav_text {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 25px;
-  text-transform: uppercase;
-  cursor: pointer;
-
-}
-
-#toggle{
-  display: none;
-  
-}
-
-.projectsClick{
-  cursor: pointer;
-}
-.projectsMenu{
-  /* border: 2px solid green; */
-  color: #fff;
-  width: 13rem;
-  height: 6rem;
-  display: grid;
-  grid-auto-flow: row;
-  text-align: center;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 0.9rem;
-  transition: all 0.5s ease;
-  position: absolute; 
-  top: 0;
-  display: grid;
-  right: 1px;
-  margin-right: 20.2rem;
-  background-color: #000;
-  border-radius: 7px;
-  display: none;
-  opacity: 0; 
-  transform: translateY(-20px);
-  transition: all 2s ease; 
-  /* z-index: 10; */
-}
-.projectsMenuOption{
-  cursor: pointer;
-  display: flex;
-  padding-left: 7px;
-  height: 2rem;
-  /* justify-content: center; */
-  align-items: center;
-  /* transition: border 0.2s ease, border-radius 0.2s ease; */
-}
-.projectsMenuOption:hover{
-  border: 2px solid #fff;
-  border-radius: 7px;
-}
-#toggle:checked ~ .projectsMenu {  
-  margin-top: 5.3rem;
-  z-index: 1;
-  opacity: 1;
-  display: grid;
- 
 }
 
 .footer_container {
@@ -206,9 +145,11 @@ nav .menubar i {
 
 /* hello */
 @media (max-width: 475px) {
-  
+
+
   nav .menubar i {
     display: block;
+    margin-right: 40px;
   }
 
   .logo img {
@@ -216,26 +157,25 @@ nav .menubar i {
   }
 
   nav ul {
-    position: absolute;
+    position: fixed;
     top: 80px;
-    left: -120%;
+    left: -130%;
     background-color: #000;
     width: 100%;
-    display: none;
+    display: block;
     text-align: center;
     transition: all 0.5s ease;
-    padding-right: 50px;
+    padding: 0px 50px;
   }
 
   #click:checked~ul {
     left: 0;
-    display: block;
-    margin: 5px 0px;
+    margin: 5px -40px;
   }
 
 
   nav ul li {
-    margin: 10px;
+    margin: 0px;
   }
 
   nav ul li a {
@@ -247,35 +187,6 @@ nav .menubar i {
   nav ul li a:hover {
     color: #ffff;
   }
-
-  .projectsMenu{
-    display: grid; /* Initially hide the menu */
-    opacity: 0;
-    position: relative;
-    margin: auto;
-    margin-top: 5rem;
-    margin-left: -20rem;
-    /* width: 0px; */
-  }
-
-  .projectsMenuOption{
-    padding-left: 2.4rem;
-  }
-
-  .projectsMenuOption:hover{
-    border: 0px;
-    border-radius: 0px;
-  }
-
-  #toggle:checked ~ .projectsMenu {  
-    display: grid;
-    justify-content: center;
-    align-items: center;
-    opacity: 1;
-    position: relative;
-    margin-left: auto;
-  }
-
 
   .footerDownContainer {
     margin: 0px 50px;

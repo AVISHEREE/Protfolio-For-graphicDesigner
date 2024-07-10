@@ -120,13 +120,13 @@ nav .menubar i {
   display: grid;
   right: 1px;
   /* margin-top: -10rem; */
-  margin-right: 20.2rem;
+  margin-right: 10rem;
   background-color: #000;
   border-radius: 7px;
   display: none;
   opacity: 0; 
   transform: translateY(-20px);
-  transition: all 2s ease; /* Smooth transition with longer duration */
+  transition: all 1s ease-in; /* Smooth transition with longer duration */
   z-index: 10;
 }
 .projectsMenuOption{
@@ -142,6 +142,7 @@ nav .menubar i {
   border: 2px solid #fff;
   border-radius: 7px;
 }
+
 #toggle:checked ~ .projectsMenu {  
   margin-top: 5.3rem;
   z-index: 1;
