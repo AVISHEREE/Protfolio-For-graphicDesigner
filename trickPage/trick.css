@@ -14,11 +14,6 @@
   font-family: 'Montserrat', sans-serif;
 }
 
-a {
-  color: #ffff;
-  text-decoration: none;
-}
-
 body {
   background-color: black;
   background-image: url(../images/NEWWBackground\ texture-03-03-03.webp);
@@ -26,6 +21,13 @@ body {
   height: 100%;
   width: 100%;
 
+}
+/* navbar start  */
+
+a {
+  color: #ffff;
+  text-decoration: none;
+  height: 0px;
 }
 
 nav {
@@ -36,7 +38,6 @@ nav {
   justify-content: space-between;
   width: 100%;
   padding: 0px 22px;
-  margin-bottom: 10px;
 }
 
 nav .logo {
@@ -49,7 +50,7 @@ nav .logo {
 }
 
 .icon {
-  margin-top: 10px;
+  margin-top: 30px;
 }
 
 nav ul {
@@ -87,7 +88,69 @@ nav .menubar i {
   display: none;
 }
 
+.nav_text {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 25px;
+  text-transform: uppercase;
+  cursor: pointer;
 
+}
+
+#toggle{
+  display: none;
+  
+}
+
+.projectsClick{
+  cursor: pointer;
+}
+.projectsMenu{
+  /* border: 2px solid green; */
+  color: #fff;
+  width: 13rem;
+  height: 6rem;
+  display: grid;
+  grid-auto-flow: row;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.9rem;
+  transition: all 0.5s ease;
+  position: absolute; 
+  top: 0;
+  display: grid;
+  right: 1px;
+  margin-right: 20.2rem;
+  background-color: #000;
+  border-radius: 7px;
+  display: none;
+  opacity: 0; 
+  transform: translateY(-20px);
+  transition: all 2s ease; 
+  /* z-index: 10; */
+}
+.projectsMenuOption{
+  cursor: pointer;
+  display: flex;
+  padding-left: 7px;
+  height: 2rem;
+  /* justify-content: center; */
+  align-items: center;
+  /* transition: border 0.2s ease, border-radius 0.2s ease; */
+}
+.projectsMenuOption:hover{
+  border: 2px solid #fff;
+  border-radius: 7px;
+}
+#toggle:checked ~ .projectsMenu {  
+  margin-top: 5.3rem;
+  z-index: 1;
+  opacity: 1;
+  display: grid;
+ 
+}
+
+
+/* navbar end  */
 .project {
   background-image: url(../newJpgImg/Portfolio\ Mockups\ 5\ -\ Trick\ Food-01.jpg);
   background-size: contain;
@@ -240,46 +303,86 @@ nav .menubar i {
   body {
     padding-bottom: 170px;
   }
+/* navbar start  */
 
-  nav .menubar i {
-    display: block;
-  }
+nav .menubar i {
+  display: block;
+}
 
-  .logo img {
-    height: 60px;
-  }
+.logo img {
+  height: 60px;
+  
+}
 
-  nav ul {
-    position: absolute;
-    top: 75px;
-    left: -110%;
-    background-color: #000;
-    width: 100%;
-    display: block;
-    text-align: center;
-    transition: all 0.5s ease;
-    padding: 0px 50px;
-  }
+nav ul {
+  position: absolute;
+  top: 80px;
+  left: -150%;
+  background-color: #000;
+  width: 100%;
+  display: block;
+  text-align: center;
+  justify-content: center;
+  transition: all 0.5s ease;
+  padding-right: 50px;
+  padding: 0px 0px;
+  height: 10rem ;
+}
 
-  #click:checked~ul {
-    left: 0;
-    margin: 5px 0px;
-  }
+#click:checked~ul {
+  left: 0;
+  margin: 5px 0px;
+}
+
+.projectsMenuOption>a{
+  margin-bottom: 7px;
+}
+
+nav ul li {
+  margin: 15px;
+}
+
+nav ul li a {
+  font-size: 20px;
+  display: block;
+  font-weight: 600;
+}
+
+nav ul li a:hover {
+  color: #ffff;
+}
+
+.projectsMenu{
+  display: none; /* Initially hide the menu */
+  opacity: 0;
+  position: absolute;
+  margin: auto;
+  /* margin-top: 12rem; */
+  margin-left: -20rem;
+  /* width: 0px; */
+}
+
+.projectsMenuOption{
+  padding-left: 3rem;
+}
+
+.projectsMenuOption:hover{
+  border: 0px;
+  border-radius: 0px;
+}
+
+#toggle:checked ~ .projectsMenu {  
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  opacity: 1;
+  position: absolute;
+  width: 100%;
+  margin-top: 12rem;
+}
 
 
-  nav ul li {
-    margin: 10px;
-  }
-
-  nav ul li a {
-    font-size: 20px;
-    display: block;
-    font-weight: 600;
-  }
-
-  nav ul li a:hover {
-    color: #ffff;
-  }
+/* navbar end  */
 
   .project_container {
     width: 100%;
@@ -318,7 +421,7 @@ nav .menubar i {
   }
 
   .footer_top_box2>a>img {
-    height: 90px;
+    height: 70px;
   }
 
   .top_text {

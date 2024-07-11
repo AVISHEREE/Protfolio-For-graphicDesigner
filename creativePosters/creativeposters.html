@@ -9,17 +9,24 @@
 <header>
     <section class="navbar">
         <nav>
-            <div class="logo"><a href="../index.html"><img src="../images/MV logo-02.png" alt=""></a></div>
+            <div class="logo"><a><img src="../images/MV logo-02.png" alt=""></a></div>
             <input type="checkbox" id="click">
             <label for="click" class="menubar">
-                <i class="icon"><img src="../svg/menu-svgrepo-com.svg" alt="" height="40px"></i>
+                <i class="icon" onclick="{hello()}"><img src="../svg/menu-svgrepo-com.svg" alt="" height="40px"></i>
             </label>
             <ul>
-                <li><a href="../index.html">home</a></li>
-                <li><a href="../servicePage/service.html">Service</a></li>
-                <li><a href="../contactPage/contact.html">Contact</a></li>
+                <li><a href="../index.html">Home</a></li>
+                <li ><a><label class="projectsClick" for="toggle">projects</label></a></li>
+                <li><a href="/servicePage/service.html">Service</a></li>
+                <li><a href="/contactPage/contact.html">Contact</a></li>
             </ul>
         </nav>
+        <input type="checkbox" id="toggle" /> 
+        <div class="projectsMenu">
+            <div class="projectsMenuOption"> <a href="/brandsLogo/brandslogo.html"> Brand Logo </a></div>
+            <div class="projectsMenuOption"><a href="/creativePosters/creativeposters.html"> Creative Poster </a></div>
+            <div class="projectsMenuOption"><a href="/socialMediaPost/socialmediapost.html">Social Media Post </a></div>
+        </div>
     </section>
 </header>
 <body>
@@ -35,8 +42,8 @@
         <div class="postImage"><img src="/creativePostersImages/creativePosters10.png" alt=""></div>
         <div class="postImage"><img src="/creativePostersImages/creativePosters11.png" alt=""></div>
         <div class="postImage"><img src="/creativePostersImages/creativePosters12.png" alt=""></div>
-        <div class="postImage"><img src="/creativePostersImages/creativePosters13.png" alt=""></div>
-        <div class="postImage"><img src="/creativePostersImages/creativePosters14.png" alt=""></div>
+        <!-- <div class="postImage"><img src="/creativePostersImages/creativePosters13.png" alt=""></div> -->
+        <!-- <div class="postImage"><img src="/creativePostersImages/creativePosters14.png" alt=""></div> -->
         <div class="postImage"><img src="/creativePostersImages/creativePosters15.png" alt=""></div>
         <div class="postImage"><img src="/creativePostersImages/creativePosters16.png" alt=""></div>
         <div class="postImage"><img src="/creativePostersImages/creativePosters17.png" alt=""></div>
@@ -48,5 +55,44 @@
         <div class="postImage"><img src="/creativePostersImages/creativePosters22.png" alt=""></div>
         <div class="postImage"><img src="/creativePostersImages/creativePosters23.png" alt=""></div>
     </div>
+
+    <footer>
+
+        <section class="footer_container">
+            <div class="footer_top_box">
+                <div class="footer_top_box1">
+                    <div class="email1">Reach us :</div>
+                    <div class="email2">mvcreationsince98@gmail.com</div>
+                </div>
+                <div class="footer_top_box2">
+                <a href="../index.html">    <img src="../images/MV logo-02.png" alt="logo" height="120rem"></a>
+
+                </div>
+                <div class="footer_top_box3">
+                    <div class="socialhandle">
+                        <div class="top_text">Connect To Our Social Media</div>
+                        <div class="svg_logo">
+                            <a href="https://www.instagram.com/mvcreation__?igsh=MzRlODBiNWFlZA==" target="_blank"> <img
+                                    src="../svg/instagram.png" alt="" height="30px"> </a>
+                            <a href="https://www.facebook.com/profile.php?id=100067575552555&mibextid=ZbWKwL"
+                                target="_blank"> <img src="../svg/facebook.png" alt="" height="30px"> </a>
+                            <a href="https://www.linkedin.com/in/manoj-vyas/" target="_blank"> <img src="../svg/linkedin.png" alt="" height="30px"> </a>
+                            <a href="https://www.youtube.com/channel/UCATV7ysKRLo_CTMQuxR2laA" target="_blank"> <img
+                                    src="../svg/youtube.png" alt="" height="30px"> </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footerDownContainer">
+                <div class="footer_down">
+                    <div class="part2">
+                        <p>mvcreation &copy; Copyright 2024. All Rights Reserved.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </footer>
+
 </body>
+<script src="../script.js"></script>
 </html>
