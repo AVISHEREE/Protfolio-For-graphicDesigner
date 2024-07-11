@@ -23,7 +23,7 @@ a {
 
 body {
   background-color: black;
-  background-image: url(images/NEWWBackground\ texture-03-03-03.webp);
+  background-image: url(/images/NEWWBackground\ texture-03-03-03.webp);
   background-repeat: repeat;
   height: 100%;
   width: 100%;
@@ -173,13 +173,14 @@ video {
 .logo_swiping {
   width: 100%;
   display: flex;
+  filter: drop-shadow(0 0 0.4rem rgba(232, 225, 225, 0.24));
   overflow: hidden;
   margin: 7rem 0px;
   gap: 70px;
 }
 
 .swiping_img {
-  animation: slide 21s infinite linear;
+  animation: slide 37s infinite linear;
 }
 
 @keyframes slide {
@@ -188,7 +189,7 @@ video {
   }
 
   to {
-    transform: translateX(-2100px);
+    transform: translateX(-4100px);
   }
 }
 
@@ -693,6 +694,7 @@ video {
   #click:checked~ul {
     left: 0;
     margin: 5px 0px;
+    z-index: 1;
   }
 
 
@@ -741,6 +743,9 @@ video {
   .hero_img_container {
     height: 18rem;
     margin-bottom: -50px;
+    position: absolute;
+    top: 70px;
+    z-index: 0;
   }
 
   .video-container>video {
@@ -755,7 +760,7 @@ video {
   }
 
   .swiping_img {
-    animation: slide 13s infinite linear;
+    animation: slide 25s infinite linear;
 
   }
 
@@ -765,7 +770,7 @@ video {
     }
 
     to {
-      transform: translateX(-1540px);
+      transform: translateX(-2800px);
     }
   }
 
