@@ -16,10 +16,6 @@
   font-family: 'Montserrat', sans-serif;
 }
 
-a {
-  color: #ffff;
-  text-decoration: none;
-}
 
 body {
   background-color: black;
@@ -29,6 +25,10 @@ body {
   width: 100%;
 }
 
+a {
+  color: #ffff;
+  text-decoration: none;
+}
 nav {
   height: 80px;
   background-color: #000;

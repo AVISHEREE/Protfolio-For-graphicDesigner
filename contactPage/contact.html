@@ -15,14 +15,20 @@
                 <div class="logo"><a href="../index.html"><img src="../images/MV logo-02.png" alt=""></a></div>
                 <input type="checkbox" id="click">
                 <label for="click" class="menubar">
-                    <i class="icon"><img src="../svg/menu-svgrepo-com.svg" alt="" height="40px"></i>
+                    <i class="icon" onclick="{hello()}"><img src="../svg/menu-svgrepo-com.svg" alt="" height="40px"></i>
                 </label>
                 <ul>
                     <li><a href="../index.html">home</a></li>
-                    <li><a href="../projectPage/projectPage.html">project</a></li>
-                    <li><a href="../servicePage/service.html">Service</a></li>
+                    <li ><a><label class="projectsClick" for="toggle">projects</label></a></li>
+                    <li><a href="/servicePage/service.html">Service</a></li>
                 </ul>
             </nav>
+            <input type="checkbox" id="toggle" /> 
+            <div class="projectsMenu">
+                <div class="projectsMenuOption"> <a href="/brandsLogo/brandslogo.html"> Brand Logo's</a></div>
+                <div class="projectsMenuOption"><a href="/creativePosters/creativeposters.html"> Creative Poster </a></div>
+                <div class="projectsMenuOption"><a href="/socialMediaPost/socialmediapost.html">Social Media Post</a></div>
+            </div>
         </section>
     </header>
     <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfNMTpCTKDLPJFyTYR5c8t99chl8ZxxV0-OH8fI3F-ja6YXBw/viewform"
@@ -30,5 +36,5 @@
     </div>
 
 </body>
-
+<script src="/script.js"></script>
 </html>
